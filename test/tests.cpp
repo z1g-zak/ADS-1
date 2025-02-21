@@ -44,3 +44,18 @@ TEST(ads1, sumPrime2) {
   uint64_t expected = 17;
   EXPECT_EQ(expected, res);
 }
+TEST(ads1, twins1) {
+  uint64_t res = twinPrimes(2,10);
+  uint64_t expected = 2;
+  EXPECT_EQ(expected, res);
+}
+TEST(ads1, twins2) {
+  uint64_t res = twinPrimes(2,100);
+  uint64_t expected = 8;
+  EXPECT_EQ(expected, res);
+}
+TEST(ads1, twins3) {
+  uint64_t res = twinPrimes(50,200);
+  uint64_t expected = 9;
+  EXPECT_EQ(expected, res);
+}
