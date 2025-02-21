@@ -22,3 +22,8 @@ uint64_t sumPrime(uint64_t hbound) {
   // вставьте код функции
   return 2;
 }
+
+uint64_t twinPrimes(uint64_t lbound, uint64_t hbound) {
+  // вставьте код функции
+  return 1;  
+}

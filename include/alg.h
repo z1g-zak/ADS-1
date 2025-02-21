@@ -7,5 +7,6 @@ bool checkPrime(uint64_t value);
 uint64_t nPrime(uint64_t n);
 uint64_t nextPrime(uint64_t value);
 uint64_t sumPrime(uint64_t hbound);
+uint64_t twinPrimes(uint64_t lbound, uint64_t hbound);
 
 #endif  // INCLUDE_ALG_H_
